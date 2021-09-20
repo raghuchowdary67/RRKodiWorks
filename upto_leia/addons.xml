@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.jiomusic"
+version="0.5.3"
+name="JioSaavn"
+provider-name="gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="script.module.future" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary>JioSaavn</summary>
+  <description>Music for every moment. Millions of music tracks across various genres, moods, artists and languages. Right music for every moment!</description>
+  <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by JioSaavn</disclaimer>
+  <language></language>
+  <platform>all</platform>
+  <license>GPL-2.0</license>
+  <forum></forum>
+  <website>https://www.jiosaavn.com/</website>
+  <email>gujal at protonmail dot com</email>
+  <news>
+[B]Version 0.5.3 - 09 Mar 2020[/B]
+- Futurize to PY2/PY3 compatibility
+- Icon based on new logo
+  </news>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshot-01.jpg</screenshot>
+    <screenshot>resources/screenshot-02.jpg</screenshot>
+    <screenshot>resources/screenshot-03.jpg</screenshot>
+  </assets>
+</extension>
+</addon>
+
+<addon id="plugin.audio.radiosindia"
+version="0.3.4"
+name="Radios India"
+provider-name="gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup4" version="4.0.0"/>
+  <import addon="script.module.future" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Radios India</summary>
+	<description>Radios India is a popular site to listen to Radio Stations from around India</description>
+	<disclaimer>This addon provides access to Radios India website and is not liable for any content hosted on that site</disclaimer>
+  	<news>
+[B]Version 0.3.3 - 11 Mar 2020[/B]
+- Add Gujarati, Marathi, Odia, Konkani and English News categories
+- PY2/3 compatibility
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/images/screenshot-01.jpg</screenshot>
+		<screenshot>resources/images/screenshot-02.jpg</screenshot>
+		<screenshot>resources/images/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.deccandelight" version="1.9.10" name="Deccan Delight" provider-name="gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.resolveurl" version="5.0.00"/>
+  <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="plugin.video.f4mTester" version="2.2.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Entertainment from the Deccan region of India</summary>
+	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi
+DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
+DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
+	<platform>all</platform>
+	<website>https://github.com/Gujal00/GujalKodiWork</website>
+	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
+	<news>
+[B]Version 1.9.10 - 07 Oct 2020[/B]
+- Fix Yodesi
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/images/screenshot-01.jpg</screenshot>
+		<screenshot>resources/images/screenshot-02.jpg</screenshot>
+		<screenshot>resources/images/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="2.9.7" provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.dateutil" optional="true" />
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.cloudscraper" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
+    <description>
+        In addition to what livestreams allowed you to do, you can now,
+        1. call regex in regex,
+        2. multiple regex in page, regex in session, also htmlunescape responses
+        3. create session from one regex and pass onto next in line
+        4. save sessions to a file and open again later
+        5. write python code in .py file, put in the profile directory and then call from your regex.
+        6. use epoctime, guid and unpack as functions already defined.
+        7. Use it to post values to the pages to get the proper responses
+        8. support many headers, like origin, X-Requested-With
+        9. you can now append cookies in response and then read in regex using includeheaders
+        10. You can now link to another web url via your xml using externallink
+        11. support for google captcha, now you can show and then post the text
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sonyliv"
+version="1.1.7"
+name="SonyLIV"
+provider-name="gujal">
+<requires>
+	<import addon="xbmc.python" version="2.25.0"/>
+	<import addon="script.module.requests" version="2.4.3"/>
+	<import addon="script.common.plugin.cache" version="2.5.5"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>SonyLIV is a one stop destination for Audio/Video content from Sony Pictures Networks</summary>
+	<description>SonyLIV is the first premium Video on Demand (VOD) service by Sony Pictures Networks India Private Limited (SPN), providing multi-screen engagement to users on all devices.
+Launched in January 2013, it enables users to discover 20 years of rich content from the network channels of Sony Pictures Networks India Private Limited.
+	</description>
+	<platform>all</platform>
+	<website>https://www.sonyliv.com/</website>
+	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Sony Pictures Networks India Pvt. Ltd.</disclaimer>
+	<news>
+[B]Version 1.1.7 - 10 Nov 2019[/B]
+- More Navigation fixes
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.voot"
+version="1.0.8"
+name="Voot"
+provider-name="gujal">
+<requires>
+	<import addon="xbmc.python" version="2.24.0"/>
+	<import addon="script.module.requests" version="2.4.3"/>
+	<import addon="script.common.plugin.cache" version="2.5.5"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>VOOT - Watch Free Online TV Shows, Movies, Kids Shows HD Quality on VOOT. Keep Vooting.</summary>
+	<description>Voot is a video on-demand platform, part of Viacom 18 Digital Ventures, the digital arm of Viacom 18 - one of the country’s largest growing media networks.
+With over 35,000 hours of exciting content for audiences with varying choices and preferences, covering Colors (Hindi), MTV, Nickelodeon, Viacom18 Motion Pictures, Colors Kannada, Colors Marathi, Colors Bangla, Colors Super and Colors Gujarati, Voot offers the biggest TV Shows, Blockbuster Movies, your favorite Toons &amp; Voot Originals, absolutely Free.</description>
+	<platform>all</platform>
+	<website>https://www.voot.com/</website>
+	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Viacom 18</disclaimer>
+	<news>
+[B]Version 1.0.8 - 19 Jan 2020[/B]
+- Add Tamil, Telugu, Gujarati to movies section
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
+<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
+	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
+		<dir>
+	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
+		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Third party Addons for Kodi</summary>
+		<description>Gujal Addons Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.slproxy" name="SLProxy" version="0.3.5" provider-name="devilsport">
+  <requires>
+    <!-- comment out for py2/py3 compat <import addon="xbmc.python" version="3.0.0"/> -->
+    <import addon="script.module.requests"/>
+    <import addon="script.module.streamlink" version="1.3.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+</addons>
