@@ -1,0 +1,2 @@
+[B]Version 2.0.13 - 19 September 2021[/B]
+- Fix tamilgun scraper
