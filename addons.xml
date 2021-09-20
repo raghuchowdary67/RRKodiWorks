@@ -65,13 +65,13 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.13" name="Deccan Delight" provider-name="RB">
+<addon id="plugin.video.deccandelight" version="3.0.0" name="RB Deccan Delight" provider-name="RB">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
 	<import addon="script.module.requests" version="2.4.3"/>
 	<import addon="script.module.beautifulsoup4" version="4.0.0"/>
-	<import addon="script.module.resolveurl" version="5.1.0"/>
+	<import addon="script.module.resolveurl" version="6.0.0"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
 	<import addon="script.module.metahandler" version="5.0.0"/>
 	<import addon="plugin.video.youtube" optional="true" />
