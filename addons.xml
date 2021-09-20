@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.jiomusic" version="0.5.5" name="JioSaavn" provider-name="gujal">
+<addon id="plugin.audio.jiomusic" version="0.5.5" name="JioSaavn" provider-name="RB">
 <requires>
   <!-- <import addon="xbmc.python" version="2.20.0"/> -->
 	<import addon="script.module.six" />
@@ -21,7 +21,7 @@
   <forum></forum>
   <broken>No Api access</broken>
   <website>https://www.jiosaavn.com/</website>
-  <email>gujal at protonmail dot com</email>
+  <email>gcemail at gmail dot com</email>
   <news>
 [B]Version 0.5.5 - 23 Apr 2021[/B]
 - JioMusic Api endpoint retired
@@ -36,7 +36,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.audio.radiosindia" version="0.3.5" name="Radios India" provider-name="gujal">
+<addon id="plugin.audio.radiosindia" version="0.3.5" name="Radios India" provider-name="RB">
 <requires>
   <!-- <import addon="xbmc.python" version="2.20.0"/> -->
   <import addon="script.module.six" />
@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.13" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.13" name="Deccan Delight" provider-name="RB">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -86,7 +86,7 @@
 DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
 DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
 	<platform>all</platform>
-	<website>https://github.com/Gujal00/GujalKodiWork</website>
+	<website>https://github.com/raghuchowdary67/RRKodiWorks</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<assets>
 		<icon>icon.png</icon>
@@ -164,7 +164,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 <addon id="plugin.video.sonyliv"
 version="1.1.7"
 name="SonyLIV"
-provider-name="gujal">
+provider-name="RB">
 <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
 	<import addon="script.module.requests" version="2.4.3"/>
@@ -195,7 +195,7 @@ Launched in January 2013, it enables users to discover 20 years of rich content 
 </extension>
 </addon>
 
-<addon id="plugin.video.voot" version="1.0.9" name="Voot" provider-name="gujal">
+<addon id="plugin.video.voot" version="1.0.9" name="Voot" provider-name="RB">
 <requires>
 	<!-- <import addon="xbmc.python" version="2.24.0"/> -->
 	<import addon="script.module.six" />
@@ -227,20 +227,20 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
-	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
+<addon id="repository.rb" name="RB Addons Repository" version="1.0.0" provider-name="RB">
+	<extension point="xbmc.addon.repository" name="RB Addons Repository">
 		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	        <info compressed="false">https://raw.githubusercontent.com/raghuchowdary67/KodiRulz/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/raghuchowdary67/KodiRulz//master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/raghuchowdary67/KodiRulz/master/zips/</datadir>
 		</dir>
-		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
-		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
+		<info compressed="false">https://raw.github.com/raghuchowdary67/RRKodiWorks/master/addons.xml</info>
+		<checksum>https://raw.github.com/raghuchowdary67/RRKodiWorks/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/raghuchowdary67/RRKodiWorks/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Third party Addons for Kodi</summary>
-		<description>Gujal Addons Repository</description>
+		<description>RB Addons Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -439,7 +439,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
        version="7.1.2"
-       provider-name="gujal">
+       provider-name="RB">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.six" />
@@ -466,7 +466,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
        version="5.3.2"
-       provider-name="amet, opensubtitles, gujal">
+       provider-name="amet, opensubtitles, rb">
   <requires>
     <!-- <import addon="xbmc.python" version="3.0.0"/> -->
     <import addon="script.module.six" />
@@ -543,7 +543,7 @@ v5.3.2 (2020-09-30)
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
        version="2.1.2"
-       provider-name="gujal">
+       provider-name="RB">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.six" />
