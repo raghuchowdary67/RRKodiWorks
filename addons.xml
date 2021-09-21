@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="4.0.1" name="RB Deccan Delight" provider-name="RB">
+<addon id="plugin.video.deccandelight" version="4.0.2" name="RB Deccan Delight" provider-name="RB">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
