@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="4.0.0" name="RB Deccan Delight" provider-name="RB">
+<addon id="plugin.video.deccandelight" version="4.0.1" name="RB Deccan Delight" provider-name="RB">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -227,7 +227,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 </extension>
 </addon>
 
-<addon id="repository.rb" name="RB Addons Repository" version="1.0.0" provider-name="RB">
+<addon id="repository.rb" name="RB Addons Repository" version="1.0.1" provider-name="RB">
 	<extension point="xbmc.addon.repository" name="RB Addons Repository">
 		<dir>
 	        <info compressed="false">https://raw.githubusercontent.com/raghuchowdary67/KodiRulz/master/addons.xml</info>
