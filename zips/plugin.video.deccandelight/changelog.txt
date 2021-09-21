@@ -1,2 +1,4 @@
-[B]Version 2.0.13 - 19 September 2021[/B]
-- Fix tamilgun scraper
+[B]Version 4.0.0 - 20 September 2021[/B]
+- Initial release
+[B]Version 3.0.10 - 20 September 2021[/B]
+- Added logs to find the Scaper Urls in movierulz
