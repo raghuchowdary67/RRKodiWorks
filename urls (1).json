@@ -1,0 +1,6 @@
+{
+  "movieapi" = "http://192.168.1.30:8001/movies/getfeatured/",
+  "seriesapi" = "http://192.168.1.30:8001/movies/getseries/",
+  "customisedapi" = "http://192.168.1.30:8001/movies/getcustomised/",
+  "trendingapi" = "https://api.themoviedb.org/3/movie/popular?api_key=dd4d819639705d332d531217b4f7c6b6&page=1&language=en-US&region=US"
+}
