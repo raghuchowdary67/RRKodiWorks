@@ -1,5 +1,5 @@
 {
-  "serverurls":["http://192.168.1.112:8001","http://192.168.1.112:8001","http://192.168.1.112:8001"],
+  "serverurls":["http://3.137.157.15:8080"],
   "trendingapi":"https://api.themoviedb.org/3/movie/popular?api_key=dd4d819639705d332d531217b4f7c6b6&page=1&language=en-US&region=US",
   "updateapi":"https://raw.githubusercontent.com/raghuchowdary67/RRKodiWorks/master/RedTvVersion.txt",
   "updateapk":"https://raw.githubusercontent.com/raghuchowdary67/RRKodiWorks/master/red_tv.apk"
