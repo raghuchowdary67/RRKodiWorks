@@ -3,4 +3,5 @@
   "trending_api":"https://api.themoviedb.org/3/movie/popular?api_key=dd4d819639705d332d531217b4f7c6b6&page=1&language=en-US&region=US",
   "api_version":"https://raw.githubusercontent.com/raghuchowdary67/RRKodiWorks/master/RedTvVersion.txt",
   "update_apk":"https://raw.githubusercontent.com/raghuchowdary67/RRKodiWorks/master/red_tv.apk"
+  
 }
